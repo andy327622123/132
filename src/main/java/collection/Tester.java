@@ -31,6 +31,13 @@ public class Tester {
         String name = (String) list.get(0);
         String kk = (String) list.get(1);
 
+        Box1 box1 = new Box1();
+        Box2 box2 = new Box2();
+        ArrayList<Box> boxes = new ArrayList<Box>();
+        boxes.add(box1);
+        boxes.add(box2);
+        Box b = boxes.get(0);
+
 
     }
 }
